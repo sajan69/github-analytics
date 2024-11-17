@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { FaTimes, FaStar, FaCodeBranch, FaEye } from 'react-icons/fa'
 import { getRepoLanguages, getRepoContributors,getRepoDetails } from '../../utils/api'
 import { useCache } from '../../hooks/useCache'

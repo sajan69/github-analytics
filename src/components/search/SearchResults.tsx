@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { searchGitHub } from '../../utils/api'
-import { FaChevronLeft, FaChevronRight, FaUser, FaBook, FaStar, FaCodeBranch } from 'react-icons/fa'
+import { FaChevronLeft, FaChevronRight, FaUser, FaStar, FaCodeBranch } from 'react-icons/fa'
 import { useCache } from '../../hooks/useCache'
 
 interface SearchResultsProps {
